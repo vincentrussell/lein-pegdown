@@ -3,7 +3,7 @@
           midje.sweet))
 
 (fact 
-  (pegdown 
+  (render-from-file 
     "test-resources/test.markdown") => "<h1>test</h1><h2>test</h2>")
 
 
